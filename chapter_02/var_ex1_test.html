@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=>, initial-scale=1.0">
+  <title> 변수 </title>
+</head>
+<body>
+  <script>
+    var box;
+    box = 100;
+    box2 = 30;
+    document.write(box + box2, "<br>"); // 30이 출력 될 것
+
+    var s = "javascript";
+    var num = "100";
+    var tag="<h1> String </h1>"
+    document.write(s+num, "<br>"); // javascript100이 출력 될 것
+
+    var numInt = 100;
+    var numStringToInt = Number("500");
+    document.write(numInt+numStringToInt, "<br>"); //600이 출력 될 것
+
+    var booleanTest = true;
+    var booleanTest2 = 10 >= 100;
+    var booleanTest3 = Boolean("hello");
+    document.write(booleanTest, booleanTest2, booleanTest3, "<br>"); // truefalsetrue가 출력 될 것
+
+    var booleanTest4 = Boolean(0);
+    var booleanTest5 = Boolean("홍길동"); 
+    document.write(booleanTest4, booleanTest5, "<br>"); // falsetrue가 출력 될 것
+  </script>
+</body>
+</html>
